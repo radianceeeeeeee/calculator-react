@@ -1,0 +1,53 @@
+html {
+  background-color: #232323;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Button {
+  border-radius: 2vw;
+  background-color: #888888;
+  font-size: 4vh;
+  width: 20vw;
+  height: 12vh;
+  align-content: center;
+  top: 50%;
+  border: none;
+}
+
+.Row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+}
+
+.Grid {
+  margin: 2vh 2vw;
+}
+
+.Screen {
+  margin: 4vh 2vw;
+  width: 95vw;
+  height: 20vh;
+  background-color: #ffffff;
+}
+
+.Equation {
+  margin: 2vh 2vw 0vh;
+  display: flex;
+  justify-content: right;
+  font-size: 9vh;
+  font-family: Consolas, monospace;
+}
+
+.Answer {
+  margin: 1vh 2vw 1vh;
+  display: flex;
+  justify-content: right;
+  font-size: 6vh;
+  font-family: Consolas, monospace;
+  color: #777;
+}
